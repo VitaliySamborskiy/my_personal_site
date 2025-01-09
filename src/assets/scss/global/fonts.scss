@@ -1,0 +1,17 @@
+$mainFont: "Gemunu Libre";
+$regular: 400;
+$bold: 700;
+
+@font-face {
+	font-display: swap;
+	font-family: $mainFont;
+	font-weight: $regular;
+	src: url("../../fonts/gemunu-libre-v14-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+	font-display: swap;
+	font-family: $mainFont;
+	font-weight: $bold;
+	src: url("../../fonts/gemunu-libre-v14-latin-700.woff2") format("woff2");
+}

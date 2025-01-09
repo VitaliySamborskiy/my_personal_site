@@ -1,0 +1,66 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+	scroll-behavior: smooth;
+}
+
+body {
+	background: $mainBackgroundColor;
+	color: $mainFontColor;
+	font-family: sans-serif;
+
+	&::-webkit-scrollbar {
+		width: 5px;
+	}
+
+	&::-webkit-scrollbar-thumb {
+		border-radius: 10px;
+		background: $red;
+	}
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: $mainFont;
+	font-size: 60px;
+	font-weight: $bold;
+	color: $mainFontColor;
+}
+
+p,
+a,
+ul,
+ol {
+	color: $mainFontColor;
+	font-family: $mainFont;
+	font-weight: $regular;
+}
+
+h1 {
+	font-size: 95px;
+}
+
+p {
+	font-size: 18px;
+}
+
+ul,
+ol {
+	font-size: 24px;
+}
+
+[class*="__container"] {
+	max-width: 1600px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 20px;
+}
