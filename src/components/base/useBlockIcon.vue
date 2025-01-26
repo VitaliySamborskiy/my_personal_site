@@ -42,8 +42,5 @@ defineProps({
 		border-radius: 8px;
 		box-shadow: -2px 0 32px 0 rgba(103, 45, 45, 0.29);
 	}
-
-	//&__svg {
-	//}
 }
 </style>

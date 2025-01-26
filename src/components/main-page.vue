@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from "vue";
-import BlockIcon from "@/components/base/blockIcon.vue";
+import BlockIcon from "@/components/base/useBlockIcon.vue";
 
 type WiriterObjctType = {
 	displayText: string;
@@ -24,6 +24,22 @@ const icons = [
 	},
 	{
 		icon: "html",
+	},
+	{
+		icon: "vite",
+		size: "38px",
+		iconSize: "18px",
+	},
+	{
+		icon: "javaScript",
+	},
+	{
+		icon: "vue",
+	},
+	{
+		icon: "vite",
+		size: "38px",
+		iconSize: "18px",
 	},
 ];
 
